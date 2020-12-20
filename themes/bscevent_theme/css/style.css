@@ -1,0 +1,324 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+body {
+	font-family: Roboto, sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+a {
+	color: #238ecd;
+	transition: all linear 0.15s;
+  -webkit-transition: all linear 0.15s;
+}
+
+img {
+	max-width: 100%;
+}
+
+.mm-page {
+	background: none;
+}
+
+.nav > li > a {
+	font-weight: 500;
+}
+
+header.navbar-default {
+	border-radius: 0;
+}
+
+.navbar-header {
+	width: 100%;
+	background: url('/sites/default/files/grey-background.png');
+  background-repeat: no-repeat;
+	border-bottom: 5px solid #238ecd;
+	padding-top: 80px;
+	border-radius: 0;
+	padding-bottom: 15px;
+}
+
+.navbar-default {
+	background: none;
+	border: none;
+}
+
+.event-logo {
+	float: left;
+}
+
+.event-logo img {
+	width: 100%;
+	max-width: 190px;
+	margin-right: 40px;
+}
+
+.event-name {
+	float: left;
+	font-weight: 700;
+	line-height: 45px;
+	margin-top: 10px;
+}
+
+.event-title-1 {
+  font-size: 40px;
+  color: #238ecd;
+}
+
+.event-title-2 {
+  font-size: 39.2px;
+  color: #238ecd;
+}
+
+.event-title-2 span {
+  color: black;
+}
+
+.event-subtitle {
+  color: black;
+  font-size: 20px;
+}
+
+.event-sponsors {
+  float: right;
+	margin-top: 20px;
+}
+
+.page-header {
+	color: #238ecd;
+	font-weight: 500;
+	font-size: 32px;
+	border-bottom: 3px solid black;
+	padding-bottom: 15px;
+	margin-top: 0;
+}
+
+.well {
+	padding: 0;
+	background: none;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.input-group .form-control {
+	border-radius: 0;
+	box-shadow: none;
+	border-color: black;
+	outline: none !important;
+}
+
+button[type="submit"].button {
+	box-shadow: none;
+	border-radius: 0;
+	border-color: black;
+	background: black;
+}
+
+#horizontal-menu {
+	margin-top: 60px;
+}
+
+.horizontal-menu > li > a {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.horizontal-menu > li > a.is-active {
+	color: #238ecd;
+}
+
+.horizontal-menu > li > a:hover {
+	color: #238ecd;
+}
+
+.horizontal-menu > li > a:first-child {
+	padding-left: 0;
+}
+
+.horizontal-menu > li ul {
+	background: white;
+	border: 2px solid #238ecd;
+}
+
+.horizontal-menu > li li > a {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+}
+
+.horizontal-menu > li ul > li:first-child > a {
+	padding-top: 0.5em;
+}
+
+.horizontal-menu > li ul > li:last-child > a {
+	padding-bottom: 0.5em;
+}
+
+ul.menu--tools {
+	background: #f5f5f5;
+	margin-bottom: 20px;
+}
+
+ul.menu--tools li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#block-eventblockbackground img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.home-info {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 20px;
+	font-weight: 300;
+	color: #238ecd;
+}
+
+.nav-tabs {
+	margin-bottom: 20px;
+}
+
+.nav-tabs > li > a {
+	text-transform: uppercase;
+}
+
+.region-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 5px solid #238ecd;
+	margin-top: 40px;
+}
+
+#block-eventblockfootermenu {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#block-eventblockfooter {
+	text-align: center;
+	color: #238ecd;
+}
+
+/* Cookies */
+
+.eu-cookie-compliance-banner {
+	padding: 1em;
+}
+
+.eu-cookie-compliance-banner .agree-button {
+	background: #238ecd;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: 3px solid #ffffff;
+	border-radius: 0;
+	font-size: 0.95em;
+	padding: 0.75em 1.25em;
+	font-weight: bold;
+}
+
+.eu-cookie-compliance-banner .decline-button {
+	display: none;
+}
+
+.eu-cookie-compliance-buttons {
+	float: left;
+	margin-left: 3em;
+}
+
+.eu-cookie-compliance-message p {
+	display: block;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.field--name-body table th,
+.field--name-body table td {
+  padding: 0.5em;
+  border: 1px solid #238ecd;
+}
+
+.field--name-body table tr,
+.field--name-body table td {
+  transition: all 140ms ease-in-out
+}
+
+.field--name-body table tr th,
+.field--name-body table tr:hover {
+  background: #e5e5e5;
+}
+
+#block-eventblocksponsors {
+	background: #f5f5f5;
+	padding: 1.5em;
+	text-align: center;
+	color: #238ecd;
+}
+
+#block-eventblocksponsors h2 {
+	margin: 0 0 25px 0;
+	font-size: 26px;
+}
+
+.responsive-menu-toggle-icon span.label {
+	display: none !important;
+}
+
+.nav > li.mm-listitem > a:hover, .nav > li.mm-listitem > a:focus {
+	background-color: #238ecd;
+}
+
+#block-bscevent-theme-account-menu {
+	width: 100%;
+	background: #f5f5f5;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.menu.menu--account.nav.navbar-nav.navbar-right {
+	float: none !important;
+}
+
+.menu.menu--account.nav.navbar-nav.navbar-right > li > a {
+  padding: 10px 15px;
+}
+
+.g-recaptcha {
+	margin-bottom: 20px;
+}
+
+select[multiple] {
+	min-height: 275px;
+}
+
+@media screen and (max-width:767px) {
+	
+	.container > .navbar-header {
+		margin: 0;
+		background-position-x: 40%;
+	}
+	
+	#block-responsivemenumobileicon {
+    background: #238ecd;
+    padding-top: 7px;
+	}
+	
+	.region-sidebar-second {
+    margin-top: 40px;
+	}
+	
+}
